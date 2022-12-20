@@ -20,7 +20,7 @@ The goal of this project is to show the actuation of a hydrogel robot through di
 User MUST have Arcade Library installed. If not, user can go to https://api.arcade.academy/en/latest/install/index.html#installation-instructions,
 or use "pip install arcade" in terminal.
 
-Once installed, user can download and run programs like standard. NOTICE: ImagesforRoboRunner MUST be installed inside the same file where ROBORRUNNER is stored.
+Once installed, user can download and run programs like standard. NOTICE: Images MUST be installed inside the same file where ROBORRUNNER is stored.
 
 ## Operating Instructions
 Code may be run isntantaneously.
@@ -30,11 +30,15 @@ The given files in this repository are:
 
 README : This file, which describes the program, project, and its facets
 ROBORUNNER: The robot visualization "game".
-ImagesforRoboRunner: The file containing frames for robot animation.
+Images: The file containing frames for robot animation.
 
 ## Troubleshooting
-Due to the demanding usage of the program, it is reccomennded to restart the kernel before every fourth use. Refusing to restart the kernel can lead
+Due to the demanding usage of the program, it is reccomennded to restart the kernel every fourth use. Refusing to restart the kernel can lead
 to time delay in program actions, such as animation, causing timing to not line up with what is expected.
+
+You can tell you need to restart the kernel if: animation of swelling/deswelling does not line up with heating/cooling cycles, heating/cooling cycles begin to overlap, etc.
+
+Differences in processing may also vary by computer. Prrogram is currently written on a beat-up Mac.
 
 ## Credits and Acknowledgments
 Creator (of code and figures):
